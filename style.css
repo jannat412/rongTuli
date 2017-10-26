@@ -4,6 +4,8 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
     
 }
 
@@ -31,12 +33,16 @@ ul{
 
 .logo_area{
    background-image: url(images/Background.jpg);
-    height: 600px;
-    background-position: center center; 
-    clear: all;
+    height: 680px;
+    
+}
+.logo{
+	background: #000405;
 }
 .headingBtn{
-	padding-top: 30px;
+	margin-right: 30px;
+	margin-bottom: 80px;
+	margin-top: -70px;
 }
 .logo img{
 	width: 80px;
@@ -49,11 +55,11 @@ ul{
 
 .buyer{
 	float: right;
+	margin-right: 10px;
 }
 
 /*----------menu-----------*/
 .main_menu{
-	margin-top: 20px;
     background: #007B5E
 }
 .main_menu ul{
@@ -121,20 +127,20 @@ ul{
 .beautifulslider{
 	padding-left: 35px;
 	padding-bottom: 50px;
-	clear: both;
-	/*background: #111;*/
 }
 .beautifulslider h2{
-	color: #cdcdcd;
-	font-size: 40px;
-	font-family: arial;
-	margin-top: 35px;
+   color: #cdcdcd;
+   margin-top: 0px;
+   padding-top: 30px;
+   padding-bottom: 15px;
+   font-size: 45px;
+   font-family: arial;
 }
 .beautifulslider p{
-	color: #cdcdcd;
-	margin-top: 15px;
-	margin-bottom: 30px;
-	font-size: 18px;
+    color: #cdcdcd;
+    padding-bottom: 25px;
+    font-size: 19px;
+    font-family: arial;
 }
 .beautifulslider a{
 	background: #1A4A70;
@@ -148,18 +154,22 @@ ul{
 	font-size: 20px;
 	}
 
+/*-------- icon---------*/
+.service_list{
+	margin: 0 auto;
+	clear: both;
+}
 
-
-.border {
-    border-style: solid;
-    border-top: thick double red;
+.sinlge_service{
+    background: #111;
+    padding-bottom: 15px;
 }
 .sinlge_service{
     text-align: center;
 }
 
 .sinlge_service img{
-    margin-bottom: 15px;
+    margin-bottom: 36px;
     margin-top: 20px;
 }
 .sinlge_service h3{
@@ -178,23 +188,46 @@ ul{
     
 }
 
-/*----------product area----------*/
-.product_area img{
-	margin-top: 30px;
-}
+/*----product area-------*/
 
+.product_area{
+	margin-left: 0 auto;
+	 text-align: center;
+	 background: #0F2034;
+}
+.product_area h2{
+	margin-top: 20px;
+	padding-bottom: 25px;
+	font-weight: bold;
+	color: white;
+}
+.pro img{
+	padding-top: 10px;
+	width: 290px;
+	height: 290px;
+	margin-bottom: 80px;
+
+}
 /*contact form*/
 
 .footerback{
  background-image: url(images/footer1background.jpg);
-    height: 485px;   
+    
 }
 
 .form{
 	background: #cdcdcd;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 530px;
+	float: right;
+}
+.form h2{
+	margin-top: -30px;
+	width: 450px;
 }
 .angularform {
-	height: 377px;
+	
 }
 .angularform input{
 background: #cdcdcd;
@@ -211,17 +244,16 @@ background: #cdcdcd;
 	background: #cdcdcd;
 	box-sizing: border-box;
 	 border: none;
-outline-style: none;
- margin: 10px 20px;
-  border-bottom: 1px solid #3E3E3E;
-  font-style: italic;
-    font-family: serif;
+	outline-style: none;
+	 margin: 10px 20px;
+	 border-bottom: 1px solid #3E3E3E;
+	 font-style: italic;
+	 font-family: serif;
 }
 
 .contacthead{
 	text-align: center;
 	background: #56AFA9;
-	width: 470px;
 	margin: 0 auto;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -230,6 +262,10 @@ outline-style: none;
 	font-size: 25px;
 	font-family: serif;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+}
+.submit{
+	margin-bottom: 110px;
+	color: white;
 }
 .butn{
 	width: 180px;
@@ -247,6 +283,7 @@ outline-style: none;
 	color: #cdcdcd;
 	font-family: arial;
 	margin-top: 70px;
+	margin-bottom: 50px;
 	margin-left: 20px;
 	font-weight: bold;
 }
@@ -286,32 +323,45 @@ outline-style: none;
 
 
 /*footer area*/
-
+.footerarea{
+	background: #2F2F2F;
+}
 .footerarea h2{
 	color: #cdcdcd;
-	margin-left: 45px;
+	margin-top: 80px;
+	margin-left: 30px;
 	font-weight: bold;
 	margin-bottom: 30px;
 }
 .footerarea p{
 	color: #cdcdcd;
-	margin-left: 45px;
-	font-size: 16px;
+	margin-left: 30px;
+	font-size: 18px;
 }
 
 .fotertext h2{
 	color: #cdcdcd;
 	text-align: center;
+	font-size: 40px;
+	text-align: left;
 
 }
 .fotertext h3{
 	color: #cdcdcd;
 	 border-bottom: 1px solid #cdcdcd;
 	 text-align: center;
+	 line-height: 35px;
+	 text-align: left;
+	 padding-bottom: 10px;
 	
 }
 .copyright{
 	color: #cdcdcd;
 	text-align: center;
-	margin-top: 20px;
+	padding-top: 60px;
+	padding-bottom: 15px;
+	
+}
+.copyright{
+	color: #cdcdcd;
 }
